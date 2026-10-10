@@ -1,0 +1,10 @@
+# Ensure Git and GitHub treat PDFs and images strictly as binary files
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+*.md text
+*.txt text
