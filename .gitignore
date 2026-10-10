@@ -1,0 +1,14 @@
+# System & temp files
+.DS_Store
+*.tmp
+*~
+__pycache__/
+*.pyc
+
+# Local scratch & artifacts
+hello.txt
+10.1.141.10
+
+# Third-party large book PDFs (kept locally to respect GitHub limits)
+*.pdf
+!05-cheatsheets-and-reference/tools/The_Cybersecurity_Tools_Roadmap_Beginner_to_Advanced.pdf

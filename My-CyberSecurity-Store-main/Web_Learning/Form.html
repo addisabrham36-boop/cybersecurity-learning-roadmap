@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <hr>
+    <h1>Form 1</h1>
+    <hr>
+
+    <form action="" method="get">
+        <h2>Contact Information</h2>
+        <p>Name: <input required type="text" name="name"></p>
+        <fieldset>
+            <p>
+                Male <input type="radio" name="gender" id="">
+                Female <input type="radio" name="gender" id="">
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="" cols="50" rows="10"></textarea></p>
+        <p>Email: <input type="email" name="mail" id=""> </p>
+        <p>Pincode: <input type="number" name="Pincode" id=""></p>
+
+        <h1>Payment Form</h1>
+        <p>Card Type:
+            <select name="card_type" id="card_type">
+                <option value="">Select a card type</option>
+                <option value="visa">Visa</option>
+                <option value="master_card">master card</option>
+                <option value="paytm">paytm</option>
+            </select>
+        </p>
+        <input type="submit" name="Submit" id="1">
+    </form>
+
+    <hr>
+
+    <h1>Form 2</h1>
+    <form action="Basic.html" method="get">
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="abc@mail.com">
+        <br>
+        <label for="passwords">Passwords: </label>
+        <input type="password" id="pass" placeholder="superSecretPass">
+        <br>
+        <select name="snacks" id="selection">
+            <option value="">Select Options</option>
+            <option value="Maggie">Maggie</option>
+            <option value="Coke">Coke</option>
+            <option value="Kurkure">Kurkure</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Pizza">Pizza</option>
+        </select>
+        <br>
+        <input type="submit" value="click_here">
+    </form>
+
+    <hr>
+
+    <h1>Form 3</h1>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="mail">Mail: </label>
+        <input type="mail" name="mail" id="mail">
+        <br><br>
+        <label for="Phone">Phone No: </label>
+        <input type="tel" name="numebr" id="number">
+        <br><br>
+        <label for="OccupationType">Occupations: </label>
+        <select name="OccupationType" id="OccupationType">
+            <option value="Student">Student</option>
+            <option value="Proffesional">Proffesional</option>
+            <option value="Others">Others</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Tdopic Of Interest</legend>
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox">
+
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox">
+
+            <label for="checkbox3">JS</label>
+            <input type="checkbox">
+        </fieldset>
+        <br><br>
+        <label for="textarea1">Comments: </label>
+        <br>
+        <textarea name="textarea1" id="textarea1" cols="60" rows="10"></textarea>
+        <input type="button" value="Submit">
+
+    </form>
+</body>
+
+</html>
